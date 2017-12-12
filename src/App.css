@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+    font-family: Arial;
+    padding: 20;
+    overflow-y: scroll;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: white;
+  height: 70px;
+  padding: 10px;
+  color: white;
+}
+.App-body{
+  background-color: #E0E0E0;
+}
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.Tabss{
+  font-family:Helvetica Neue;
+}
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: #2196F3;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
